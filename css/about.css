@@ -1,0 +1,398 @@
+/*
+    DEMO STYLE
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+}
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.nav li > a {
+    display: table-cell;
+}
+.nav>li>a:hover {
+    background: none;
+    color: #ff7113;
+}
+.nav > li > ul {
+    display:none;
+    list-style:none;
+    position:relative;
+    padding: 0px;
+}
+.nav > li:hover > ul {
+    display:block;
+}
+.hover-hack {
+    position: fixed !important;
+    background-color: #fff;
+}
+.menu-item{
+    width: 100%;
+}
+.hover-hack .menu-item a{
+    padding: 12px 35px 12px 0px;
+    font-weight: 600;
+    width: 100%;
+}
+.hover-hack .menu-item a{
+    background: #fff;
+}
+/*******************************/ 
+/*Header section css code start*/ 
+/*******************************/ 
+.navbar-brand{
+    width: 10%;
+}  
+.navbar-brand img{
+    width: 73%;
+}
+.navbar-expand-lg{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background: #FEF1E1;
+}
+.nav-item .nav-link{
+    color: #484848;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 4px;
+}
+.item2 .item2-iner{
+    color: #fff;
+}
+.nav-item .nav-link i{
+    ffont-size: 17px;
+    margin-right: 6px;
+}
+.item2-iner{
+    font-size: 16px;
+    background: #F0BB4C;
+    border: 1px solid #F0BB4C;
+}
+/*******************************/ 
+/*Header section css code end*/ 
+/*******************************/
+
+/*******************************/ 
+/*banner section css code start*/ 
+/*******************************/
+.banner-section-overflow{
+    width: 100%;
+    background: url(../img/bg10.jpg) center top no-repeat;
+    background-size: cover;
+}
+.banner-section{
+    width: 100%;
+    background: #14191bbf;
+}
+.banner-inner{
+    width: 100%;
+    text-align: center;
+    padding: 110px 0px;
+}
+.banner-inner h1{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.banner-inner h6{
+    font-size: 28px;
+    color: #F0BB4C;
+    font-weight: 400;
+}
+.banner-inner-img img{
+    width: 100%;
+}
+.inner-img img{
+    width: 100%;
+}
+.pad{
+    padding: 0px;
+}
+/*******************************/ 
+/*banner section css code end*/ 
+/*******************************/
+
+/*******************************/ 
+/*About detailes section css code start*/ 
+/*******************************/
+.about-details-section{
+    width: 100%;
+    background: #fff;
+    padding: 50px 0px;
+}
+.about-ssanket-details{
+
+}
+.about-ssanket-details p{
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: justify;
+}
+.about-ssanket-img img{
+    width: 100%;
+}
+/*******************************/ 
+/*About detailes section css code End*/ 
+/*******************************/
+
+/*******************************/ 
+/*Why choose us section css code start*/ 
+/*******************************/
+.why-choose-us-section{
+    width: 100%;
+    background: #e9e8e8;
+    padding: 50px 0px;
+}
+.why-choose-us-inner{
+    width: 100%;
+    text-align: center;
+}
+.why-choose-us-inner h1{
+    font-size: 32px;
+    font-weight: 900;
+    color: #000;
+}
+.why-choose-us-inner span{
+    color: #FFB315;
+}
+.why-choose-us-inner img{
+
+}
+.why-choose-us-inner h6{
+    width: 100%;
+    line-height: 30px;
+    margin-top: 28px;
+}
+.why-img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    position: relative;
+}
+.why-choose-us-inner2{
+    width: 100%;
+    margin-top: 40px;
+}
+.why-img img{
+    width: 70px;
+    height: 70px;
+    padding: 14px;
+    border-radius: 50%;
+    background: #F0BB4C;
+    margin-top: 8px;
+}
+.why-choose-us-content{
+    width: 100%;
+    padding: 18px 0px;
+    background: #fff;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: -15px;
+}
+.why-choose-us-content p{
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+
+
+/*About client section css code start*/
+.client-section{
+    width: 100%;
+    background: url(../img/about/client.jpg) center top no-repeat;
+    background-size: cover;
+}
+.client-overflow{
+    width: 100%;
+    background: #000000b0;
+    padding: 50px 0px;
+}
+.client-heading{
+    width: 100%;
+    text-align: center;
+}
+.client-heading h1{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 900;
+}
+.client-heading span{
+    color: #FFB315;
+}
+.client-heading h6{
+    width: 100%;
+    line-height: 30px;
+    margin-top: 28px;
+    color: #fff;
+    margin-bottom: 54px;
+}
+.client-content{
+    width: 100%;
+    text-align: center;
+}
+.client-img{
+    border: 2px dotted #fff;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    margin: 0px auto;
+    border-radius: 50%;
+}
+.client-img img{
+    width: 70px;
+    height: 70px;
+    margin-top: 23px;
+}
+.client-content h5{
+    color: #fff;
+    margin-bottom: 0px;
+}
+.client-content h3{
+    color: #F0BB4C;
+    margin-bottom: 0px;
+    margin-top: 17px;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+/******************************************/
+/**********Mediea query css code start*****/
+/******************************************/
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 640px) {
+.navbar-toggler-icon i{
+    font-size: 28px;
+    color: #e0bf1f;
+}
+.navbar-toggler{
+    &:focus {
+        outline: none;
+    }
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0rem;
+}
+.navbar-toggler{
+    border: 1px solid #e0bf1f;
+}
+.navbar-brand{
+    margin-right: 0px;
+    width: 30%;
+}
+.why-choose-us-content {
+    margin-top: -72px;
+    margin-left: 0px;
+}
+.why-choose-us-content p {
+    margin-left: 30px;
+}
+.client-content {
+    margin-bottom: 35px;
+}
+.testimonial-section-geadline h1{
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 27px;
+}
+.owl-carousel .owl-item img{
+    width: 100%;
+}
+.media-body p {
+    margin-left: -68px;
+    text-align: justify;
+}
+.media-body span{
+    font-size: 20px;
+    margin-left: -76px;
+}
+.media-body h5{
+    font-size: 13px;
+    color: gray;
+}
+.footer-gallery-section-heading h1 {
+    font-size: 23px;
+}
+.footer-gallery-section-heading-click p {
+    margin-top: 20px;
+}
+.footer-menu-inner ul li a {
+    font-size: 12px;
+}
+}
+/******************************************/
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+/******************************************/
+
+@media (min-width: 641px) and (max-width: 1024px) {
+.why-choose-us-content p {
+    font-size: 8px;
+    margin-bottom: 0px;
+    margin-left: 18px;
+    padding: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.why-choose-us-content {
+    width: 100%;
+    padding: 18px 0px;
+    background: #fff;
+    text-align: center;
+    margin-top: 4px;
+    margin-left: -15px;
+}
+.client-content h3 {
+    font-size: 24px;
+}
+.client-content h5 {
+    font-size: 14px;
+}
+.client-img img {
+    width: 50px;
+    height: 50px;
+}
+.client-img {
+    width: 100px;
+    height: 100px;
+}
+.testimonial-section-geadline h1 {
+    font-size: 26px;
+}
+.nav-item .nav-link {
+    font-size: 12px;
+}
+}
+
+
+/******************************************/
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+/******************************************/
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+}

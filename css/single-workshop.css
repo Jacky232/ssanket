@@ -1,0 +1,196 @@
+/*
+    DEMO STYLE
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+/****************************************/
+/*single Workshop section css code start*/
+/****************************************/
+.single-workshop-section{
+    width: 100%;
+    padding: 50px 0px;
+    background: #fff;
+}
+.single-workshop-left h4{
+    width: 100%;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.single-workshop-left a{
+    width: 100%;
+    color: gray;
+}
+.divider{
+    width: 100%;
+    height: 1px;
+    background: gray;
+    margin: 8px 0px 20px 0px;
+}
+.single-workshop-right img{
+    width: 100%;
+}
+/****************************************/
+/*single Workshop section css code end*/
+/****************************************/
+
+/******************************/
+/*Query section css code start*/
+/******************************/
+.query-section{
+    width: 100%;
+    background: #EBEBEB;
+    padding: 30px;
+    margin-top: 70px;
+    border-radius: 6px;
+}
+.query-section h4{
+    width: 100%;
+    font-size: 22px;
+    color: #F0BB4C;
+    margin-bottom: 10px;
+}
+.query-section p{
+    width: 100%;
+    font-size: 14px;
+}
+.query-form .form-control3{
+    width: 100%;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    margin-bottom: 16px;
+    background: #C4C4C4;
+}
+.query-form .form-control4{
+    width: 100%;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    height: 150px;
+    background: #C4C4C4;
+}
+.query-form label{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.form-control4-btn{
+    width: 100%;
+    text-align: center;
+}
+.form-control4-btn .btn{
+    width: 100%;
+    background: #F0BB4C;
+    padding: 3px;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #F0BB4C;
+}
+.recent-post-inner{
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.recent-post-section h4{
+    width: 100%;
+    font-size: 22px;
+    color: #F0BB4C;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.recent-post-inner img{
+    width: 26%;
+}
+.recent-post-date{
+    margin-top: -80px;
+    margin-left: 114px;
+}
+.recent-post-date p{
+    margin-bottom: 6px;
+    font-weight: 300;
+    color: gray;
+}
+.recent-post-date i{
+    margin-right: 12px;
+}
+/******************************/
+/*Query section css code end*/
+/******************************/
+
+/*******************************************************/
+/*single-workshop-right-heading1 section css code start*/
+/*******************************************************/
+.single-workshop-right-heading1 h5{
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: 14px;
+    color: #5F5F5F;
+}
+.single-workshop-right-heading2 i{
+    margin-right: 10px;
+}
+.single-workshop-right-heading2 p{
+    text-align: right;
+    margin-bottom: 0px;
+    color: #F0BB4C;
+    margin-top: 14px;
+}
+.single-workshop-right-content h3{
+    font-size: 23px;
+    font-weight: 600;
+    margin: 24px 0px;
+}
+.single-workshop-right-content i{
+    font-size: 15px;
+    background: #F0BB4C;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.single-workshop-right-content2 p{
+    margin: 36px 0px;
+}
+.single-workshop-right-content2 a{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 6px 16px;
+    background: #F0BB4C;
+    border: 1px solid #F0BB4C;
+    color: #fff;
+    border-radius: 3px;
+}
+.single-workshop-right-content2 a:hover{
+    background: #fff;
+    border: 1px solid #F0BB4C;
+    color: #F0BB4C;
+}
+/*******************************************************/
+/*single-workshop-right-heading1 section css code end*/
+/*******************************************************/
+
+@media (min-width: 641px) and (max-width: 1024px) {
+.single-workshop-left a {
+    font-size: 13px;
+}
+.query-section h4 {
+    font-size: 18px;
+}
+.query-section {
+    padding: 10px;
+}
+.recent-post-date p {
+    margin-left: -32px;
+}
+.recent-post-date p {
+    margin-left: -32px;
+    margin-bottom: 0px;
+}
+}

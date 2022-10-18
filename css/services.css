@@ -1,0 +1,134 @@
+/*
+    DEMO STYLE
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+/*************************************/
+/*Our services section css code start*/
+/*************************************/
+.our-services-section{
+    width: 100%;
+    background: #fff;
+    padding: 50px 0px;
+}
+.our-services-headding{
+    width: 100%;
+    text-align: center;
+}
+.our-services-headding h1{
+    font-size: 32px;
+    font-weight: 900;
+}
+.our-services-headding span{
+    color: #FFB315;
+}
+.our-services-headding h6{
+    width: 100%;
+    line-height: 30px;
+    margin-top: 28px;
+}
+.our-srvice-img{
+    border: 1px solid #80808029;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    margin: 0px auto;
+    border-radius: 50%;
+    box-shadow: 0px 3px 3px rgb(3 23 14 / 76%);
+    margin-bottom: 25px;
+}
+.our-srvice-img img{
+    width: 45px;
+    height: 45px;
+    margin-top: 12px;
+}
+.our-services-inner{
+    width: 100%;
+    text-align: center;
+    border: 2px solid #FFB315;
+    padding: 34px;
+    margin-top: 30px;
+}
+.our-services-inner h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: #F0BB4C;
+}
+.our-services-inner p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.our-services-inner a{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 3px 17px;
+    background: #FFB315;
+    border: 1px solid #FFB315;
+    color: #fff;
+}
+.our-services-inner a:hover{
+    color: #FFB315;
+    background: #fff;
+}
+/*************************************/
+/*Our services section css code end*/
+/*************************************/
+
+/************************************/
+/*Testimonial section css code start*/
+/************************************/
+.testimonial-section-geadline{
+    width: 100%;
+}
+.testimonial-section-geadline h1{
+    width: 100%;
+    margin-top: 65px;
+    font-size: 30px;
+}
+.testimonial-section-geadline span{
+    color: #F0BB4C;
+}
+.testimonial-section{
+    width: 100%;
+    padding: 50px 0px;
+}
+.media-body{
+    width: 100%;
+    margin-top: -124px;
+    padding: 0px 0px 0px 150px;
+}
+.media-body h1{
+    width: 100%;
+    margin-bottom: -54px;
+    font-size: 100px;
+    color: #F0BB4C;
+}
+.media-body span{
+    color: #F0BB4C;
+    font-size: 28px;
+    font-weight: 600;
+}
+.media-body h5{
+    font-size: 16px;
+    color: gray;
+}
+.media-body{
+    width: 100%;
+}
+.media-body p{
+    width: 100%;
+    font-size: 14px;
+}
+/************************************/
+/*Testimonial section css code end*/
+/************************************/

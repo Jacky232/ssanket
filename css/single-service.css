@@ -1,0 +1,125 @@
+/*
+    DEMO STYLE
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+/***************************************/
+/*Single Service section css code start*/
+/***************************************/
+.single-service-section{
+    width: 100%;
+    background: #fff;
+    padding: 45px 0px 0px 0px;
+}
+.single-service-img img{
+    width: 100%;
+    height: 557px;
+}
+.single-service-img p{
+    margin-bottom: 0px;
+    padding: 20px 0px;
+}
+.single-service-img i{
+    font-size: 20px;
+    background: #08c;
+    color: #fff;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 20px;
+    background: #FFB315;
+    color: #fff;
+    padding: 5px;
+    margin-right: 10px;
+}
+.single-service-content p{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+}
+.single-time{
+    margin-left: 40px;
+}
+.single-service-btn{
+    width: 100%;
+    margin: 40px 0px;
+    text-align: center;
+}
+.single-service-btn a{
+    font-size: 19px;
+    padding: 7px 28px;
+    background: #FFB315;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #FFB315;
+}
+.single-service-btn a:hover{
+    background: #fff;
+    color: #FFB315;
+}
+/***************************************/
+/*Single Service section css code end*/
+/***************************************/
+
+/*********************************************/
+/*Single title heading section css code start*/
+/*********************************************/
+.single-title-heading{
+    width: 100%;
+    background: url(../img/single-service/2.jpg) center top no-repeat;
+    background-size: cover;
+}
+.single-service-overlay{
+    width: 100%;
+    background: #000000a3;
+}
+.single-title-heading-inner{
+    width: 100%;
+    text-align: center;
+}
+.single-title-heading-inner img{
+    width: 100%;
+}
+.single-title-heading-inner h1{
+    color: #fff;
+}
+/*********************************************/
+/*Single title heading section css code end*/
+/*********************************************/
+
+/**********************************/
+/*Restoring section css code start*/
+/**********************************/
+.restoring-section{
+    width: 100%;
+    background: #fff;
+    padding: 50px 0px;
+}
+.restoring-inner{
+    width: 100%;
+    padding: 14px 0px;
+}
+.restoring-inner i{
+    font-size: 22px;
+    color: #FFB315;
+}
+.restoring-inner h6{
+    font-size: 17px;
+    margin-top: 10px;
+}
+.restoring-inner p{
+    font-size: 14px;
+    color: gray;
+}
+/**********************************/
+/*Restoring section css code end*/
+/**********************************/

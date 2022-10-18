@@ -1,0 +1,125 @@
+/*
+    DEMO STYLE
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+/**********************************/
+/*Blog post section css code start*/
+/**********************************/
+.blog-post-section{
+    width: 100%;
+    padding: 50px 0px;
+    background: #fff;
+}
+.blog-post-inner{
+    width: 100%;
+    margin-bottom: 35px;
+}
+.blog-post-inner img{
+    width: 100%;
+}
+.blog-message{
+    width: 100%;
+    margin-top: -30px;
+    display: flex;
+}
+.blog-message p{
+    background: #0f0a0a94;
+    width: 100%;
+    color: #fff;
+    padding: 3px 16px;
+}
+.blog-message i{
+    margin-right: 11px;
+}
+.blog-post-details h4{
+    font-size: 17px;
+    font-weight: 700;
+}
+.blog-post-details p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 23px 0px;
+}
+.blog-post-details a{
+    font-size: 16px;
+    font-weight: 500;
+    background: #FFB315;
+    padding: 5px 18px;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #FFB315;
+}
+.blog-post-details a:hover{
+    background: #fff;
+    color: #FFB315;
+    border: 1px solid #FFB315;
+}
+.pagation-div{
+    float: right;
+}
+.page-item{
+        padding: 0px 8px 0px 0px;
+}
+.page-link{
+    color: gray;
+}
+.next{
+    background: #FFB315;
+    color: #fff;
+}
+/*Blog post right section css code start*/
+.blog-recent{
+    width: 100%;
+}
+.form-control123{
+    padding: 6px 10px;
+    width: 85%;
+    border: 1px solid gray;
+}
+.btn-search{
+    padding: 6px 16px;
+    border: 1px solid gray;
+    background: gray;
+    color: #fff;
+}
+.divider1{
+    width: 20%;
+    height: 4px;
+    background: #FFB315;
+    margin-bottom: 30px;
+}
+.blog-content-left h4{
+    width: 100%;
+    font-size: 22px;
+    margin-top: 37px;
+    margin-bottom: 10px;
+}
+.blog-content-left a{
+    width: 100%;
+    color: gray;
+}
+.divider{
+    width: 100%;
+    height: 1px;
+    background: gray;
+    margin: 8px 0px 20px 0px;
+}
+/**********************************/
+/*Blog post section css code end*/
+/**********************************/
+@media (min-width: 641px) and (max-width: 1024px) {
+.form-control123 {
+    width: 76%;
+}
+}

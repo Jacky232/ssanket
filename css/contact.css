@@ -1,0 +1,96 @@
+/*
+    DEMO STYLE
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+/********************************/
+/*Contact section css code start*/
+/********************************/
+.contact-section{
+    width: 100%;
+    padding: 50px 0px;
+    background: #fff;
+}
+.contact-section-heading{
+    width: 100%;
+    text-align: center;
+}
+.contact-section-heading h1{
+    font-size: 32px;
+    font-weight: 900;
+}
+.contact-section-heading h6{
+    width: 100%;
+    line-height: 30px;
+    margin: 30px 0px 50px 0px;
+}
+.contact-section-heading span{
+    color: #FFB315;
+}
+.contact-details-section{
+    width: 100%;
+    background: #0088cc17;
+    padding: 26px 30px 233px 30px;
+    border-radius: 22px;
+}
+.contact-details-section i{
+    width: 44px;
+    height: 44px;
+    border: 1px solid #FFB315;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 26px;
+    margin-right: 18px;
+    color: #FFB315;
+}
+.contact-details-section p{
+    color: gray;
+}
+.form-control1{
+    width: 100%;
+    padding: 6px 20px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin-bottom: 25px;
+}
+.form-control2{
+    padding: 6px 20px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin-bottom: 35px;
+    height: 250px;
+}
+.contact-submit .contact-btn{
+    font-size: 16px;
+    font-weight: 500;
+    background: #F1BC4C;
+    padding: 8px 16px;
+    border: 1px solid #F1BC4C;
+    border-radius: 3px;
+    color: #fff;
+}
+.contact-submit .contact-btn:hover{
+    background: #fff;
+    color: #F1BC4C;
+    border: 1px solid #F1BC4C;
+}
+/********************************/
+/*Contact section css code end*/
+/********************************/
+
+@media (min-width: 320px) and (max-width: 640px) {
+.main-form{
+    padding: 0px 20px;
+    margin-top: 27px;
+}
+}

@@ -1,0 +1,133 @@
+/*
+    DEMO STYLE
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+/*********************************/
+/*Workshop section css code start*/
+/*********************************/
+.workshop-section{
+    width: 100%;
+    padding: 50px 0px;
+    background: #fff;
+}
+.workshop-section-heading{
+    width: 100%;
+    text-align: center;
+}
+.workshop-section-heading h1{
+    font-size: 32px;
+    font-weight: 900;
+}
+.workshop-section-heading span{
+    color: #FFB315;
+}
+.workshop-section-heading h6{
+    width: 100%;
+    line-height: 30px;
+    margin: 30px 0px 0px 0px;
+}
+.workshop-img{
+    width: 100%;
+    text-align: center;
+    margin-top: 57px;
+    box-shadow: 0px 0px 5px 2px rgb(255 183 1);
+}
+.workshop-img img{
+    width: 100%;
+    height: 238px;
+}
+.workshop-content{
+    background: #FFB315;
+    padding: 15px;
+}
+.workshop-content h4{
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 0px;
+    padding: 16px 0px;
+}
+.workshop-content p{
+    width: 100%;
+    font-size: 14px;
+}
+.workshop-content a{
+    font-weight: 600;
+}
+/*********************************/
+/*Workshop section css code end*/
+/*********************************/
+
+/*******************************************/
+/*Workshop choose us section css code start*/
+/*******************************************/
+.workshop-choose-us-section{
+    width: 100%;
+    background: url(../img/workshop/worksho-banner.png) center top no-repeat;
+    background-size: cover;
+}
+.workshop-choose-us-heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.workshop-choose-us-heading h1{
+    font-size: 32px;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 27px;
+}
+.workshop-choose-us-heading span{
+    color: #FFB315;
+}
+.workshop-choose-us-img img{
+    width: 100%;
+}
+.workshop-choose-us-content{
+    width: 100%;
+}
+.workshop-choose-us-inner
+{
+    width: 100%;
+    background: url(../img/workshop/choose.svg) center top no-repeat;
+    background-size: 130px;
+    padding: 40px;
+}
+.workshop-choose-us-inner h1{
+    text-align: center;
+    color: #fff;
+}
+.workshop-choose-us-inner2 h6{
+    text-align: center;
+    font-size: 17px;
+    color: #FFB315;
+}
+.con{
+    margin-top: 40px;
+}
+/*******************************************/
+/*Workshop choose us section css code end*/
+/*******************************************/
+
+@media (min-width: 641px) and (max-width: 1024px) {
+.workshop-content h4 {
+    font-size: 12px;
+}
+.workshop-choose-us-inner h1 {
+    font-size: 26px;
+    margin-left: -14px;
+}
+.workshop-choose-us-inner2 h6 {
+    font-size: 10px;
+}
+}
